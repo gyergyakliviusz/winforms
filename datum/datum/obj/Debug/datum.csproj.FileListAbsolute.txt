@@ -1,0 +1,10 @@
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\bin\Debug\datum.exe.config
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\bin\Debug\datum.exe
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\bin\Debug\datum.pdb
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.csproj.AssemblyReference.cache
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.Form1.resources
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.Properties.Resources.resources
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.csproj.GenerateResource.cache
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.csproj.CoreCompileInputs.cache
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.exe
+Z:\12_Kozgaz\DIAKOK\Gyergyák Líviusz\datum\datum\obj\Debug\datum.pdb
