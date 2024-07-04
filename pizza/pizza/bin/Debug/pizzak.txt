@@ -1,5 +1,0 @@
-Margherita;1000;1500
-Pepperoni;1200;1800
-Hawaiian;1100;1700
-Veggie;900;1400
-BBQ Chicken;1300;2000
