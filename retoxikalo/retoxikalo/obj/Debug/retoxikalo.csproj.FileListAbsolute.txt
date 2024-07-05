@@ -1,0 +1,9 @@
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\bin\Debug\retoxikalo.exe.config
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\bin\Debug\retoxikalo.exe
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\bin\Debug\retoxikalo.pdb
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\obj\Debug\retoxikalo.csproj.AssemblyReference.cache
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\obj\Debug\retoxikalo.Properties.Resources.resources
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\obj\Debug\retoxikalo.csproj.GenerateResource.cache
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\obj\Debug\retoxikalo.csproj.CoreCompileInputs.cache
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\obj\Debug\retoxikalo.exe
+C:\Users\gyerg\Downloads\retoxikalo\retoxikalo\obj\Debug\retoxikalo.pdb
