@@ -1,0 +1,14 @@
+C:\Users\user\Downloads\uszas\uszas\bin\Debug\uszas.exe.config
+C:\Users\user\Downloads\uszas\uszas\bin\Debug\uszas.exe
+C:\Users\user\Downloads\uszas\uszas\bin\Debug\uszas.pdb
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.csproj.AssemblyReference.cache
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.EredmenyForm.resources
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.InditoForm.resources
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.NevjegyForm.resources
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.Properties.Resources.resources
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.VersenyForm.resources
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.ZaszloForm.resources
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.csproj.GenerateResource.cache
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.exe
+C:\Users\user\Downloads\uszas\uszas\obj\Debug\uszas.pdb
