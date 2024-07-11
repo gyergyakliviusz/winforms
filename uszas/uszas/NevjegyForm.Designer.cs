@@ -28,7 +28,15 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.txtNevjegy = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
+            // 
+            // txtNevjegy
+            // 
+            this.txtNevjegy.Location = new System.Drawing.Point(319, 205);
+            this.txtNevjegy.Name = "txtNevjegy";
+            this.txtNevjegy.Size = new System.Drawing.Size(100, 20);
+            this.txtNevjegy.TabIndex = 0;
             // 
             // NevjegyForm
             // 
@@ -36,12 +44,17 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtNevjegy);
             this.Name = "NevjegyForm";
             this.Text = "NevjegyForm";
+            this.Load += new System.EventHandler(this.NevjegyForm_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
+
+        private System.Windows.Forms.TextBox txtNevjegy;
     }
 }

@@ -119,5 +119,17 @@
   <ItemGroup>
     <None Include="bin\Debug\background.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\magyar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\norveg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\eszt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sved.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

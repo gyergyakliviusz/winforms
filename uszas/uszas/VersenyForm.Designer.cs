@@ -32,11 +32,11 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtVersenyzo = new System.Windows.Forms.TextBox();
             this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
             this.btnVerseny = new System.Windows.Forms.Button();
             this.btnKovetkezo = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboUszasNem = new System.Windows.Forms.ComboBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
             this.SuspendLayout();
@@ -77,12 +77,12 @@
             this.label4.TabIndex = 3;
             this.label4.Text = "m";
             // 
-            // textBox1
+            // txtVersenyzo
             // 
-            this.textBox1.Location = new System.Drawing.Point(245, 229);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(221, 20);
-            this.textBox1.TabIndex = 4;
+            this.txtVersenyzo.Location = new System.Drawing.Point(245, 229);
+            this.txtVersenyzo.Name = "txtVersenyzo";
+            this.txtVersenyzo.Size = new System.Drawing.Size(221, 20);
+            this.txtVersenyzo.TabIndex = 4;
             // 
             // numericUpDown2
             // 
@@ -108,15 +108,16 @@
             this.btnKovetkezo.TabIndex = 8;
             this.btnKovetkezo.Text = "Következő";
             this.btnKovetkezo.UseVisualStyleBackColor = true;
+            this.btnKovetkezo.Click += new System.EventHandler(this.btnKovetkezo_Click);
             // 
-            // comboBox1
+            // comboUszasNem
             // 
-            this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(374, 128);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(143, 21);
-            this.comboBox1.TabIndex = 9;
+            this.comboUszasNem.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboUszasNem.FormattingEnabled = true;
+            this.comboUszasNem.Location = new System.Drawing.Point(374, 128);
+            this.comboUszasNem.Name = "comboUszasNem";
+            this.comboUszasNem.Size = new System.Drawing.Size(143, 21);
+            this.comboUszasNem.TabIndex = 9;
             // 
             // dateTimePicker1
             // 
@@ -134,11 +135,11 @@
             this.BackColor = System.Drawing.Color.Wheat;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.comboUszasNem);
             this.Controls.Add(this.btnKovetkezo);
             this.Controls.Add(this.btnVerseny);
             this.Controls.Add(this.numericUpDown2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtVersenyzo);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -157,11 +158,11 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtVersenyzo;
         private System.Windows.Forms.NumericUpDown numericUpDown2;
         private System.Windows.Forms.Button btnVerseny;
         private System.Windows.Forms.Button btnKovetkezo;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboUszasNem;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
     }
 }

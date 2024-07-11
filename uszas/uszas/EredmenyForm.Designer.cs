@@ -28,32 +28,32 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.lblCim = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.lstResztvevok = new System.Windows.Forms.ListBox();
+            this.lstVersenyzok = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.txtRajtszam = new System.Windows.Forms.TextBox();
             this.txtOrszag = new System.Windows.Forms.TextBox();
             this.txtIdoeredmeny = new System.Windows.Forms.TextBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton2 = new System.Windows.Forms.RadioButton();
+            this.rdBtnNevsor = new System.Windows.Forms.RadioButton();
+            this.rdBtnEredmeny = new System.Windows.Forms.RadioButton();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
+            // lblCim
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(221, 32);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(352, 24);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "300 méteres gyorsúszás eredménye:";
+            this.lblCim.AutoSize = true;
+            this.lblCim.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lblCim.Location = new System.Drawing.Point(221, 32);
+            this.lblCim.Name = "lblCim";
+            this.lblCim.Size = new System.Drawing.Size(352, 24);
+            this.lblCim.TabIndex = 0;
+            this.lblCim.Text = "300 méteres gyorsúszás eredménye:";
             // 
             // label2
             // 
@@ -65,13 +65,14 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Résztvevők";
             // 
-            // lstResztvevok
+            // lstVersenyzok
             // 
-            this.lstResztvevok.FormattingEnabled = true;
-            this.lstResztvevok.Location = new System.Drawing.Point(122, 113);
-            this.lstResztvevok.Name = "lstResztvevok";
-            this.lstResztvevok.Size = new System.Drawing.Size(219, 264);
-            this.lstResztvevok.TabIndex = 2;
+            this.lstVersenyzok.FormattingEnabled = true;
+            this.lstVersenyzok.Location = new System.Drawing.Point(122, 113);
+            this.lstVersenyzok.Name = "lstVersenyzok";
+            this.lstVersenyzok.Size = new System.Drawing.Size(219, 264);
+            this.lstVersenyzok.TabIndex = 2;
+            this.lstVersenyzok.SelectedIndexChanged += new System.EventHandler(this.lstVersenyzok_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -121,32 +122,34 @@
             this.txtIdoeredmeny.Size = new System.Drawing.Size(147, 20);
             this.txtIdoeredmeny.TabIndex = 8;
             // 
-            // radioButton1
+            // rdBtnNevsor
             // 
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(23, 30);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(92, 17);
-            this.radioButton1.TabIndex = 9;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "Névsor szerint";
-            this.radioButton1.UseVisualStyleBackColor = true;
+            this.rdBtnNevsor.AutoSize = true;
+            this.rdBtnNevsor.Location = new System.Drawing.Point(23, 30);
+            this.rdBtnNevsor.Name = "rdBtnNevsor";
+            this.rdBtnNevsor.Size = new System.Drawing.Size(92, 17);
+            this.rdBtnNevsor.TabIndex = 9;
+            this.rdBtnNevsor.TabStop = true;
+            this.rdBtnNevsor.Text = "Névsor szerint";
+            this.rdBtnNevsor.UseVisualStyleBackColor = true;
+            this.rdBtnNevsor.CheckedChanged += new System.EventHandler(this.rdBtnNevsor_CheckedChanged);
             // 
-            // radioButton2
+            // rdBtnEredmeny
             // 
-            this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(23, 58);
-            this.radioButton2.Name = "radioButton2";
-            this.radioButton2.Size = new System.Drawing.Size(105, 17);
-            this.radioButton2.TabIndex = 10;
-            this.radioButton2.TabStop = true;
-            this.radioButton2.Text = "Eredmény szerint";
-            this.radioButton2.UseVisualStyleBackColor = true;
+            this.rdBtnEredmeny.AutoSize = true;
+            this.rdBtnEredmeny.Location = new System.Drawing.Point(23, 58);
+            this.rdBtnEredmeny.Name = "rdBtnEredmeny";
+            this.rdBtnEredmeny.Size = new System.Drawing.Size(105, 17);
+            this.rdBtnEredmeny.TabIndex = 10;
+            this.rdBtnEredmeny.TabStop = true;
+            this.rdBtnEredmeny.Text = "Eredmény szerint";
+            this.rdBtnEredmeny.UseVisualStyleBackColor = true;
+            this.rdBtnEredmeny.CheckedChanged += new System.EventHandler(this.rdBtnEredmeny_CheckedChanged);
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Controls.Add(this.rdBtnNevsor);
+            this.groupBox1.Controls.Add(this.rdBtnEredmeny);
             this.groupBox1.Location = new System.Drawing.Point(435, 277);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(236, 100);
@@ -187,9 +190,9 @@
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.lstResztvevok);
+            this.Controls.Add(this.lstVersenyzok);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblCim);
             this.Name = "EredmenyForm";
             this.Text = "EredmenyForm";
             this.groupBox1.ResumeLayout(false);
@@ -201,17 +204,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label lblCim;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ListBox lstResztvevok;
+        private System.Windows.Forms.ListBox lstVersenyzok;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtRajtszam;
         private System.Windows.Forms.TextBox txtOrszag;
         private System.Windows.Forms.TextBox txtIdoeredmeny;
-        private System.Windows.Forms.RadioButton radioButton1;
-        private System.Windows.Forms.RadioButton radioButton2;
+        private System.Windows.Forms.RadioButton rdBtnNevsor;
+        private System.Windows.Forms.RadioButton rdBtnEredmeny;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
